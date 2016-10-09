@@ -9,10 +9,11 @@ to try:
 
 Install Angular-CLI  (instructions at: https://github.com/angular/angular-cli)
 
-Create a folder called angular2-extjs and cd to this folder
+Create a folder called ExtAngular and cd to this folder
 
-in the angular2-extjs folder
+in the ExtAngular folder
 	create new project using command prompt (this will take a while):
+
 		ng new ExtTest
 
 Run the following commands on the command line:
@@ -24,19 +25,17 @@ Run the following commands on the command line:
 
 To create a theme for the application:
 
-in the angular2-extjs folder
-
-	Create an empty ExtJS application called Theme:
+In the ExtAngular folder create an empty ExtJS application called Theme:
 
 		sencha -sdk {path-to-ext-js-6.2} generate app -starter=false -modern Theme ./Theme
 		cp ../ExtTest/app/misc/app.js to Theme/app.js
 		cd Theme
 
-build Ext JS application
+Build Ext JS application
 
 	sencha app build testing
 
-Copy build folder of Ext JS app to app folder of Angular2 app
+Copy build folder of Ext JS app to app folder of Angular2 test app (ExtTest)
 
 	cp -r build/ ../ExtTest/app/build
 
