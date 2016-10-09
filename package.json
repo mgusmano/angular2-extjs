@@ -14,7 +14,7 @@
     "it4": "node all.js",
     "it5": "tsc",
     "it6": "cp -r demo dist/demo/ && npm version patch && cp README.md dist && cp package.json dist/",
-    "xxit7": "npm publish", //in dist folder
+    "xxit7": "npm publish",
     "build": "rm -rf lib && tsc",
     "typings": "typings"
   },
