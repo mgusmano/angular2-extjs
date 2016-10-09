@@ -28,9 +28,9 @@ To create a theme for the application:
 
 In the ExtAngular folder create an empty ExtJS application called Theme:
 
-		sencha -sdk {path-to-ext-js-6.2} generate app -starter=false -modern Theme ./Theme
-		cp ../ExtTest/app/misc/app.js to Theme/app.js
-		cd Theme
+	sencha -sdk {path-to-ext-js-6.2} generate app -starter=false -modern Theme ./Theme
+	cp ../ExtTest/app/misc/app.js to Theme/app.js
+	cd Theme
 
 Build Ext JS application
 

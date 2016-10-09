@@ -22,15 +22,30 @@ When finished, run the following commands on the command line:
 	npm install angular2-extjs --save
 	cp -r node_modules/angular2-extjs/demo/ src/
 	
-Replace styles and scripts in ExtTest/angular-cli.json with src/misc/angular-cli.json.txt
+Replace styles and scripts section in ExtTest/angular-cli.json 
+with what is in src/misc/angular-cli.json.txt
+(don't forget to do this...)
 
 To create a theme for the application:
 
 In the ExtAngular folder create an empty ExtJS application called Theme:
 
+	cd ..
 	sencha -sdk {path-to-ext-js-6.2} generate app -starter=false -modern Theme ./Theme
-	cp ../ExtTest/app/misc/app.js to Theme/app.js
+	cp ExtTest/src/demo/misc/app.js Theme/app.js
 	cd Theme
+
+Change 'requires' in app.json to this:
+
+	"requires": [
+		"calendar",
+		"charts",
+		"d3",
+		"ux",
+		"pivot",
+		"pivot-d3",
+		"font-awesome"
+	],
 
 Build Ext JS application
 
@@ -38,10 +53,12 @@ Build Ext JS application
 
 Copy build folder of Ext JS app to app folder of Angular2 test app (ExtTest)
 
-	cp -r build/ ../ExtTest/app/build
+	cp -r build/ ../ExtTest/src/app/build/
 
 Run the application
 
+	cd ..
+	cd ExtTest
 	ng serve
 
 In the browser, go to http://localhost:4200

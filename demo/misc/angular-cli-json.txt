@@ -1,14 +1,14 @@
-  "apps": [
-    {
+	"apps": [
+		{
 
-      "styles": [
-				"app/ext/Theme-all.css",
+			"styles": [
+				"app/build/testing/Theme/resources/Theme-all.css",
 				"app/ext/misc.css"
-      ],
-      "scripts": [
+			],
+			"scripts": [
 				"app/ext/Boot.js",
-				"app/ext/app.js"
+				"app/build/testing/Theme/app.js"
 			],
 
-    }
-  ],
+		}
+	],
