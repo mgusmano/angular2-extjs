@@ -1,0 +1,17 @@
+# Node generated files
+node_modules/
+typings/
+modern-all-classes-flatten.json
+all.js
+npm-debug.log
+typings.json
+tsconfig.json
+# OS generated files
+Thumbs.db
+.DS_Store
+# Ignored files
+.npmignore
+*.ts
+# NOT Ignored files
+!*.d.ts
+!demo/app/*.ts

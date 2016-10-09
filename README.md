@@ -25,16 +25,23 @@ Run the following commands on the command line:
 To create a theme for the application:
 
 in the angular2-extjs folder
+
 	Create an empty ExtJS application called Theme:
+
 		sencha -sdk {path-to-ext-js-6.2} generate app -starter=false -modern Theme ./Theme
 		cp ../ExtTest/app/misc/app.js to Theme/app.js
 		cd Theme
+
 build Ext JS application
+
 	sencha app build testing
+
 Copy build folder of Ext JS app to app folder of Angular2 app
+
 	cp -r build/ ../ExtTest/app/build
 
 Run the application
+
 	ng serve
 
 In the browser, go to http://localhost:4200
