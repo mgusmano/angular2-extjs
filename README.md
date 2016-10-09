@@ -14,14 +14,15 @@ Create a folder called ExtAngular and cd to this folder
 in the ExtAngular folder
 	create new project using command prompt (this will take a while):
 
-		ng new ExtTest
+	ng new ExtTest
 
-Run the following commands on the command line:
+When finished, run the following commands on the command line:
 
 	cd ExtTest
 	npm install angular2-extjs --save
 	cp -r node_modules/angular2-extjs/demo/ src/
-	replace styles and scripts in angular-cli.json with src/misc/angular-cli.json.txt
+	
+Replace styles and scripts in ExtTest/angular-cli.json with src/misc/angular-cli.json.txt
 
 To create a theme for the application:
 
