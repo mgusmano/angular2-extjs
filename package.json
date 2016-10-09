@@ -13,7 +13,9 @@
     "it3": "mkdir src/ && mkdir src/app/",
     "it4": "node all.js",
     "it5": "tsc",
-    "it6": "cp -r demo dist/demo/ && npm version patch && cp README.md dist && cp package.json dist/",
+    "it6": "cp -r demo dist/demo/",
+    "it7": "npm version patch",
+    "it8": "cp README.md dist/ && cp package.json dist/",
     "xxit7": "npm publish",
     "build": "rm -rf lib && tsc",
     "typings": "typings"
