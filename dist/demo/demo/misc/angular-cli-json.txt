@@ -1,0 +1,14 @@
+  "apps": [
+    {
+
+      "styles": [
+				"app/ext/Theme-all.css",
+				"app/ext/misc.css"
+      ],
+      "scripts": [
+				"app/ext/Boot.js",
+				"app/ext/app.js"
+			],
+
+    }
+  ],

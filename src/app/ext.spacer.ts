@@ -1,0 +1,143 @@
+import {Component,ViewChild,ElementRef,ComponentFactoryResolver,ViewContainerRef,forwardRef,ContentChildren,QueryList} from '@angular/core';
+import { extbase } from './ext.base';
+// Ext Class - Ext.Spacer
+class extspacerMetaData {
+	public static XTYPE: string = 'spacer';
+	public static INPUTNAMES: string[] = [
+		'alwaysOnTop',
+		'axisLock',
+		'baseCls',
+		'bind',
+		'border',
+		'bottom',
+		'centered',
+		'cls',
+		'contentEl',
+		'controller',
+		'data',
+		'defaultListenerScope',
+		'disabled',
+		'docked',
+		'draggable',
+		'enterAnimation',
+		'exitAnimation',
+		'flex',
+		'floated',
+		'fullscreen',
+		'height',
+		'hidden',
+		'hideAnimation',
+		'hideOnMaskTap',
+		'html',
+		'id',
+		'itemId',
+		'keyMap',
+		'keyMapEnabled',
+		'keyMapTarget',
+		'left',
+		'listeners',
+		'margin',
+		'maxHeight',
+		'maxWidth',
+		'minHeight',
+		'minWidth',
+		'modal',
+		'padding',
+		'plugins',
+		'publishes',
+		'record',
+		'reference',
+		'relative',
+		'renderTo',
+		'right',
+		'scrollable',
+		'session',
+		'shadow',
+		'shim',
+		'showAnimation',
+		'style',
+		'styleHtmlCls',
+		'styleHtmlContent',
+		'toFrontOnShow',
+		'tooltip',
+		'top',
+		'touchAction',
+		'tpl',
+		'tplWriteMode',
+		'translatable',
+		'twoWayBindable',
+		'ui',
+		'useBodyElement',
+		'userCls',
+		'viewModel',
+		'width',
+		'x',
+		'xtype',
+		'y',
+		'zIndex',
+		'fit',
+		'config'
+];
+	public static OUTPUTS: any[] = [
+		{name:'added',parameters:'spacer,container,index'},
+		{name:'beforehide',parameters:'spacer'},
+		{name:'beforeorientationchange',parameters:''},
+		{name:'beforeshow',parameters:'spacer'},
+		{name:'beforetofront',parameters:'spacer'},
+		{name:'destroy',parameters:''},
+		{name:'erased',parameters:'spacer'},
+		{name:'floatingchange',parameters:'spacer,positioned'},
+		{name:'fullscreen',parameters:'spacer'},
+		{name:'hide',parameters:'spacer'},
+		{name:'initialize',parameters:'spacer'},
+		{name:'moved',parameters:'spacer,container,toIndex,fromIndex'},
+		{name:'orientationchange',parameters:''},
+		{name:'painted',parameters:'element'},
+		{name:'positionedchange',parameters:'spacer,positioned'},
+		{name:'removed',parameters:'spacer,container,index'},
+		{name:'resize',parameters:'element'},
+		{name:'show',parameters:'spacer'},
+		{name:'tofront',parameters:'spacer'},
+		{name:'updatedata',parameters:'spacer,newData'},
+		{name:'ready',parameters:''}
+];
+	public static OUTPUTNAMES: string[] = [
+		'added',
+		'beforehide',
+		'beforeorientationchange',
+		'beforeshow',
+		'beforetofront',
+		'destroy',
+		'erased',
+		'floatingchange',
+		'fullscreen',
+		'hide',
+		'initialize',
+		'moved',
+		'orientationchange',
+		'painted',
+		'positionedchange',
+		'removed',
+		'resize',
+		'show',
+		'tofront',
+		'updatedata',
+		'ready'
+];
+}
+@Component({
+  selector: 'ext-' + extspacerMetaData.XTYPE,
+	inputs: extspacerMetaData.INPUTNAMES,
+	outputs: extspacerMetaData.OUTPUTNAMES,
+	providers: [{provide: extbase, useExisting: forwardRef(() => extspacer)}],
+	template: '<template #dynamic></template>'
+})
+export class extspacer extends extbase {
+	constructor(eRef:ElementRef,resolver:ComponentFactoryResolver,vcRef:ViewContainerRef) {
+		super(eRef,resolver,vcRef,extspacerMetaData);
+	}
+	@ContentChildren(extbase,{read:ViewContainerRef}) extbaseRef:QueryList<ViewContainerRef>;
+	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef:ViewContainerRef;
+	ngAfterContentInit() {this.AfterContentInit(this.extbaseRef);}
+	ngOnInit() {this.OnInit(this.dynamicRef,extspacerMetaData);}
+}

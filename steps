@@ -1,0 +1,16 @@
+delete dist/ folder
+delete /src/
+create src/app folders
+go to angular2-extjs folder
+node all.js (fills src/app folders)
+tsc (creates dist folder)
+cp -r demo dist/demo/
+npm version patch
+cp README.md dist/
+cp package.json dist/
+
+npm publish
+
+
+cp -r build/ ../ExtAngularWebpack/app/build
+sencha -sdk ~/desktop/sencha/ext-6.2.0  generate app -starter=false -modern Theme ./Theme
