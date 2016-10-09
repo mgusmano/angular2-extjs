@@ -1,11 +1,11 @@
 angular2-extjs
 
-ExtJS Bridge for Angular2
+Ext JS Bridge for Angular2 (The Bridge)
 =======
 
-Works with Sencha Ext JS 6.2 modern toolkit
+The Bridge Works with the Sencha Ext JS 6.2 modern toolkit
 
-to try:
+To try The Bridge with a test Angular2 application:
 
 Install Angular-CLI  (instructions at: https://github.com/angular/angular-cli)
 
