@@ -8,7 +8,9 @@ class extinteractionMetaData {
 		'enabled',
 		'gesture',
 		'listeners',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

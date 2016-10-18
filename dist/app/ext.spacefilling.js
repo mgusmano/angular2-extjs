@@ -37,7 +37,9 @@ var extspacefillingMetaData = (function () {
         'store',
         'style',
         'theme',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extspacefillingMetaData.OUTPUTS = [

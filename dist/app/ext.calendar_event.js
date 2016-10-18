@@ -31,7 +31,9 @@ var extcalendar_eventMetaData = (function () {
         'title',
         'touchAction',
         'view',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_eventMetaData.OUTPUTS = [

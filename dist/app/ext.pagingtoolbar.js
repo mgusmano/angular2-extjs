@@ -108,7 +108,9 @@ var extpagingtoolbarMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpagingtoolbarMetaData.OUTPUTS = [

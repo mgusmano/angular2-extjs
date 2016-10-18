@@ -117,7 +117,9 @@ var extpasswordfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpasswordfieldMetaData.OUTPUTS = [

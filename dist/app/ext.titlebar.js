@@ -106,7 +106,9 @@ var exttitlebarMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttitlebarMetaData.OUTPUTS = [

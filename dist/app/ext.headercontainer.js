@@ -104,7 +104,9 @@ var extheadercontainerMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extheadercontainerMetaData.OUTPUTS = [

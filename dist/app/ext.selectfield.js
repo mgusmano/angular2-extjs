@@ -127,7 +127,9 @@ var extselectfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extselectfieldMetaData.OUTPUTS = [

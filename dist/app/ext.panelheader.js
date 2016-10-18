@@ -108,7 +108,9 @@ var extpanelheaderMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpanelheaderMetaData.OUTPUTS = [

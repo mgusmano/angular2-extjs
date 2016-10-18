@@ -119,7 +119,9 @@ var extpickerfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpickerfieldMetaData.OUTPUTS = [

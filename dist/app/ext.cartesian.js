@@ -39,7 +39,9 @@ var extcartesianMetaData = (function () {
         'store',
         'style',
         'theme',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcartesianMetaData.OUTPUTS = [

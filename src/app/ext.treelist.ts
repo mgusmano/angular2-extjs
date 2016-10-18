@@ -42,7 +42,9 @@ class exttreelistMetaData {
 		'width',
 		'x',
 		'y',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -150,7 +150,9 @@ var exttreeMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttreeMetaData.OUTPUTS = [

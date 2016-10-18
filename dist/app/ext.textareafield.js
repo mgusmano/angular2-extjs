@@ -116,7 +116,9 @@ var exttextareafieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttextareafieldMetaData.OUTPUTS = [

@@ -91,7 +91,9 @@ var extspacerMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extspacerMetaData.OUTPUTS = [

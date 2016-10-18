@@ -122,7 +122,9 @@ var extdatepickernativefieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extdatepickernativefieldMetaData.OUTPUTS = [

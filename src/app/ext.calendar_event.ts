@@ -15,7 +15,9 @@ class extcalendar_eventMetaData {
 		'title',
 		'touchAction',
 		'view',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

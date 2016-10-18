@@ -142,7 +142,9 @@ var extlistMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extlistMetaData.OUTPUTS = [

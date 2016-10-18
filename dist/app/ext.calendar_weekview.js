@@ -42,7 +42,9 @@ var extcalendar_weekviewMetaData = (function () {
         'timezoneOffset',
         'value',
         'visibleDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_weekviewMetaData.OUTPUTS = [

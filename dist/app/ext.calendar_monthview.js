@@ -42,7 +42,9 @@ var extcalendar_monthviewMetaData = (function () {
         'visibleDays',
         'visibleWeeks',
         'weekendDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_monthviewMetaData.OUTPUTS = [

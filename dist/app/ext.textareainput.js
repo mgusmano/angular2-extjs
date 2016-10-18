@@ -112,7 +112,9 @@ var exttextareainputMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttextareainputMetaData.OUTPUTS = [

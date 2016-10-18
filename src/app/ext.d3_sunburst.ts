@@ -99,7 +99,9 @@ class extd3_sunburstMetaData {
 		'y',
 		'zIndex',
 		'zoomParentDotRadius',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

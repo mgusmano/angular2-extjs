@@ -26,7 +26,9 @@ var extcalendar_multiviewMetaData = (function () {
         'timezoneOffset',
         'value',
         'views',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_multiviewMetaData.OUTPUTS = [

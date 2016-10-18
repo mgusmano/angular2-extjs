@@ -102,7 +102,9 @@ var extvideoMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extvideoMetaData.OUTPUTS = [

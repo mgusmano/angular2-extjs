@@ -118,7 +118,9 @@ var extnumberfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extnumberfieldMetaData.OUTPUTS = [

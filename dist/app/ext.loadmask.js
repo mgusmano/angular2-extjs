@@ -95,7 +95,9 @@ var extloadmaskMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extloadmaskMetaData.OUTPUTS = [

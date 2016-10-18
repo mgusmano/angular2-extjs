@@ -8,7 +8,9 @@ class extcalendar_weeksMetaData {
 		'dayHeader',
 		'eventRelayers',
 		'view',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

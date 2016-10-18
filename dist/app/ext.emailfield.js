@@ -115,7 +115,9 @@ var extemailfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extemailfieldMetaData.OUTPUTS = [

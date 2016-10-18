@@ -10,7 +10,9 @@ class extcalendar_monthMetaData {
 		'value',
 		'view',
 		'visibleWeeks',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

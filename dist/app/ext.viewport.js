@@ -104,7 +104,9 @@ var extviewportMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extviewportMetaData.OUTPUTS = [

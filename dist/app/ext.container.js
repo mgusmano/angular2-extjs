@@ -102,7 +102,9 @@ var extcontainerMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcontainerMetaData.OUTPUTS = [

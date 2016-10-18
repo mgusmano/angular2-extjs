@@ -10,7 +10,9 @@ class extcalendar_multiviewMetaData {
 		'timezoneOffset',
 		'value',
 		'views',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

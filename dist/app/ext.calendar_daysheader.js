@@ -26,7 +26,9 @@ var extcalendar_daysheaderMetaData = (function () {
         'format',
         'value',
         'visibleDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_daysheaderMetaData.OUTPUTS = [

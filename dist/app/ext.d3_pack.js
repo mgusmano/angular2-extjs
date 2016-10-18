@@ -113,7 +113,9 @@ var extd3_packMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_packMetaData.OUTPUTS = [

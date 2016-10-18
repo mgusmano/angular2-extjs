@@ -57,7 +57,9 @@ var extsurfaceMetaData = (function () {
         'width',
         'x',
         'y',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsurfaceMetaData.OUTPUTS = [

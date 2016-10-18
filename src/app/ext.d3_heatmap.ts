@@ -85,7 +85,9 @@ class extd3_heatmapMetaData {
 		'y',
 		'yAxis',
 		'zIndex',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

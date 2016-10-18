@@ -115,7 +115,9 @@ var extd3_sunburstMetaData = (function () {
         'y',
         'zIndex',
         'zoomParentDotRadius',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_sunburstMetaData.OUTPUTS = [

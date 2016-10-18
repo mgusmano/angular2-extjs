@@ -115,7 +115,9 @@ var exthiddenfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exthiddenfieldMetaData.OUTPUTS = [

@@ -110,7 +110,9 @@ var extsegmentedbuttonMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsegmentedbuttonMetaData.OUTPUTS = [

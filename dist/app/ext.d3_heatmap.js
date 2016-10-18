@@ -101,7 +101,9 @@ var extd3_heatmapMetaData = (function () {
         'y',
         'yAxis',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_heatmapMetaData.OUTPUTS = [

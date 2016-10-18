@@ -2,8 +2,6 @@ import { NgModule } from "@angular/core";
 import { ext } from './ext';
 import { extngcomponent } from './ext.ngcomponent';
 import { extclass } from './ext.class';
-import { extactionsheet } from './ext.actionsheet';
-import { extaudio } from './ext.audio';
 import { extbutton } from './ext.button';
 import { extcalendar_event } from './ext.calendar_event';
 import { extcalendar_form_add } from './ext.calendar_form_add';
@@ -24,9 +22,6 @@ import { extcalendar_multiview } from './ext.calendar_multiview';
 import { extcalendar_weekview } from './ext.calendar_weekview';
 import { extcalendar_weeksview } from './ext.calendar_weeksview';
 import { extcarousel } from './ext.carousel';
-import { extcarouselindicator } from './ext.carouselindicator';
-import { extaxis } from './ext.axis';
-import { extaxis3d } from './ext.axis3d';
 import { extcartesian } from './ext.cartesian';
 import { extinteraction } from './ext.interaction';
 import { extpolar } from './ext.polar';
@@ -113,8 +108,6 @@ import { extwidget } from './ext.widget';
 	exports: [
 		ext,
 		extngcomponent,
-		extactionsheet,
-		extaudio,
 		extbutton,
 		extcalendar_event,
 		extcalendar_form_add,
@@ -135,9 +128,6 @@ import { extwidget } from './ext.widget';
 		extcalendar_weekview,
 		extcalendar_weeksview,
 		extcarousel,
-		extcarouselindicator,
-		extaxis,
-		extaxis3d,
 		extcartesian,
 		extinteraction,
 		extpolar,
@@ -223,8 +213,6 @@ import { extwidget } from './ext.widget';
 	declarations: [
 		ext,
 		extngcomponent,
-		extactionsheet,
-		extaudio,
 		extbutton,
 		extcalendar_event,
 		extcalendar_form_add,
@@ -245,9 +233,6 @@ import { extwidget } from './ext.widget';
 		extcalendar_weekview,
 		extcalendar_weeksview,
 		extcarousel,
-		extcarouselindicator,
-		extaxis,
-		extaxis3d,
 		extcartesian,
 		extinteraction,
 		extpolar,

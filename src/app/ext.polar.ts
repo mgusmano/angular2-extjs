@@ -24,7 +24,9 @@ class extpolarMetaData {
 		'store',
 		'style',
 		'theme',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

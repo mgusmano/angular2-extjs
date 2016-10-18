@@ -124,7 +124,9 @@ var extdataviewMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extdataviewMetaData.OUTPUTS = [

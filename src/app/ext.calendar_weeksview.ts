@@ -26,7 +26,9 @@ class extcalendar_weeksviewMetaData {
 		'visibleDays',
 		'visibleWeeks',
 		'weekendDays',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

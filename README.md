@@ -21,9 +21,10 @@ When finished, run the following commands on the command line:
 	cd ExtTest
 	npm install angular2-extjs --save
 	cp -r node_modules/angular2-extjs/demo/ src/
-	
+
 Replace styles and scripts section in ExtTest/angular-cli.json 
 with what is in src/misc/angular-cli.json.txt
+
 (don't forget to do this...)
 
 To create a theme for the application:

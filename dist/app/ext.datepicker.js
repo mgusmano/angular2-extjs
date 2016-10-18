@@ -130,7 +130,9 @@ var extdatepickerMetaData = (function () {
         'yearText',
         'yearTo',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extdatepickerMetaData.OUTPUTS = [

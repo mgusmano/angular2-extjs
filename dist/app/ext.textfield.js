@@ -115,7 +115,9 @@ var exttextfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttextfieldMetaData.OUTPUTS = [

@@ -113,7 +113,9 @@ var extsinglesliderfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsinglesliderfieldMetaData.OUTPUTS = [

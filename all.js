@@ -24,6 +24,10 @@ function launch(data) {
 				o.alias.substring(7).indexOf('.') == -1 && 
 //				o.alias.substring(7).indexOf('-') == -1 && 
 //				o.alias.indexOf('calendar-') == -1 && 
+				o.alias.indexOf('actionsheet') == -1 && 
+				o.alias.indexOf('audio') == -1 && 
+				o.alias.indexOf('axis') == -1 && 
+				o.alias.indexOf('carouselindicator') == -1 && 
 				o.alias.substring(7).indexOf('item') == -1 && 
 				o.alias.substring(7).indexOf('cell') == -1 && 
 				o.alias.substring(7).indexOf('column') == -1 && 
@@ -50,7 +54,9 @@ function launch(data) {
 					configsArray[0].items.forEach(function (config, index, array) {
 						sINPUTS = sINPUTS + tab + tab + "'" + config.name + "'" + "," + newLine;
 					});
-					sINPUTS = sINPUTS + tab + tab + "'" + "fit"+ "'" + "," + newLine;
+					sINPUTS = sINPUTS + tab + tab + "'" + "platformConfig"+ "'" + "," + newLine;
+					sINPUTS = sINPUTS + tab + tab + "'" + "responsiveConfig"+ "'" + "," + newLine;
+					sINPUTS = sINPUTS + tab + tab + "'" + "fitToParent"+ "'" + "," + newLine;
 					sINPUTS = sINPUTS + tab + tab + "'" + "config" + "'" + "" + newLine;
 				}
 
@@ -147,6 +153,7 @@ export class ${prefix}${className} extends ${prefix}base {
 
 function doAppJS(allClasses) {
 	return `Ext.require([
+	'plugin.responsive',
 	'widget.widgetcell',
 	'widget.sparklineline',
 	'plugin.grideditable',
@@ -154,6 +161,7 @@ function doAppJS(allClasses) {
 	'plugin.pagingtoolbar',
 	'plugin.summaryrow',
 	'plugin.columnresizing',
+	'plugin.pivotconfigurator',
 	'axis.numeric',
 	'axis.category',
 	'Ext.chart.series.Series',
@@ -202,7 +210,7 @@ export class extbase{
 	private listeners = {};
 	private xtype: string;
 	private inputs: any;
-	private nofit: any;
+	//private nofit: any;
 
 	constructor(
 		private myElement: any, 
@@ -228,7 +236,12 @@ export class extbase{
 		var arrayLength = ExtJSComponentRefArray.length;
 		for (var i = 1; i < arrayLength; i++) {
 			var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
-			firstExtJS.add(obj);
+			if (obj.config.docked != null) {
+				firstExtJS.insert(0, obj);
+			}
+			else {
+				firstExtJS.add(obj);
+			}
 		}
 	}
 
@@ -265,11 +278,11 @@ export class extbase{
 			if (me[prop] != undefined && 
 					prop != 'listeners' && 
 					prop != 'config' && 
-					prop != 'nofit') { 
+					prop != 'fitToParent') { 
 				o[prop] = me[prop]; 
 			};
 		}
-		if ('true' == me.fit) {
+		if ('true' == me.fitToParent) {
 			o.top=0, 
 			o.left=0, 
 			o.width='100%', 
@@ -279,6 +292,8 @@ export class extbase{
 			Ext.apply(o, me.config);
 		};
 		me.extjsObject = Ext.create(o);
+		me.ext = me.extjsObject;
+		me.x = me.extjsObject;
 
 		var componentFactory: ComponentFactory<any>;
 		var type: Type<any>;
@@ -306,7 +321,7 @@ function doExt(prefix) {
 import { extbase } from './ext.base';
 class extMetaData {
 	public static XTYPE: string = '';
-	public static INPUTNAMES: string[] = ['xtype','fit'];
+	public static INPUTNAMES: string[] = ['xtype','fitToParent'];
 	public static OUTPUTS: any[] = [ { name: 'click', parameters: 'control,record,eOpts' }];
 	public static OUTPUTNAMES: string[] = ['click'];
 }

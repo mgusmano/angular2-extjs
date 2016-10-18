@@ -26,7 +26,9 @@ var extcalendar_weeksheaderMetaData = (function () {
         'format',
         'value',
         'visibleDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_weeksheaderMetaData.OUTPUTS = [

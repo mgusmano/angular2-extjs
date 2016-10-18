@@ -97,7 +97,9 @@ var extpaneltitleMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpaneltitleMetaData.OUTPUTS = [

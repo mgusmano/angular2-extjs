@@ -115,7 +115,9 @@ var exttogglefieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttogglefieldMetaData.OUTPUTS = [

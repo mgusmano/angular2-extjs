@@ -1,4 +1,5 @@
 Ext.require([
+	'plugin.responsive',
 	'widget.widgetcell',
 	'widget.sparklineline',
 	'plugin.grideditable',
@@ -6,13 +7,12 @@ Ext.require([
 	'plugin.pagingtoolbar',
 	'plugin.summaryrow',
 	'plugin.columnresizing',
+	'plugin.pivotconfigurator',
 	'axis.numeric',
 	'axis.category',
 	'Ext.chart.series.Series',
 	'series.bar',
 	'series.pie',
-	'Ext.ActionSheet',	// xtype='actionsheet'
-	'Ext.Audio',	// xtype='audio'
 	'Ext.Button',	// xtype='button'
 	'Ext.calendar.Event',	// xtype='calendar_event'
 	'Ext.calendar.form.Add',	// xtype='calendar_form_add'
@@ -33,9 +33,6 @@ Ext.require([
 	'Ext.calendar.view.Week',	// xtype='calendar_weekview'
 	'Ext.calendar.view.Weeks',	// xtype='calendar_weeksview'
 	'Ext.carousel.Carousel',	// xtype='carousel'
-	'Ext.carousel.Indicator',	// xtype='carouselindicator'
-	'Ext.chart.axis.Axis',	// xtype='axis'
-	'Ext.chart.axis.Axis3D',	// xtype='axis3d'
 	'Ext.chart.CartesianChart',	// xtype='cartesian'
 	'Ext.chart.interactions.Abstract',	// xtype='interaction'
 	'Ext.chart.PolarChart',	// xtype='polar'

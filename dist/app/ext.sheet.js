@@ -118,7 +118,9 @@ var extsheetMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsheetMetaData.OUTPUTS = [

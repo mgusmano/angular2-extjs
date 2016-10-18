@@ -24,7 +24,9 @@ var extdrawMetaData = (function () {
         'gradients',
         'resizeHandler',
         'sprites',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extdrawMetaData.OUTPUTS = [

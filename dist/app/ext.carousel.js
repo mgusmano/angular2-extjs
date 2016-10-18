@@ -104,7 +104,9 @@ var extcarouselMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcarouselMetaData.OUTPUTS = [

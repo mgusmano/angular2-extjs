@@ -110,7 +110,9 @@ var extfilefieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extfilefieldMetaData.OUTPUTS = [

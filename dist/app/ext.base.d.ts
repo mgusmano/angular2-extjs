@@ -9,7 +9,6 @@ export declare class extbase {
     private listeners;
     private xtype;
     private inputs;
-    private nofit;
     constructor(myElement: any, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef, metaData: any);
     AfterContentInit(ExtJSBaseRef: any): void;
     OnInit(dynamicTarget: any, metadata?: any): void;

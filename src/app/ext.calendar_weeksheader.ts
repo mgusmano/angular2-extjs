@@ -10,7 +10,9 @@ class extcalendar_weeksheaderMetaData {
 		'format',
 		'value',
 		'visibleDays',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

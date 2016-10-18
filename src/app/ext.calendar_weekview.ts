@@ -26,7 +26,9 @@ class extcalendar_weekviewMetaData {
 		'timezoneOffset',
 		'value',
 		'visibleDays',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

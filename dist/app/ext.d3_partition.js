@@ -111,7 +111,9 @@ var extd3_partitionMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_partitionMetaData.OUTPUTS = [

@@ -124,7 +124,9 @@ var extpickerMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpickerMetaData.OUTPUTS = [

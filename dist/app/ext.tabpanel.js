@@ -105,7 +105,9 @@ var exttabpanelMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttabpanelMetaData.OUTPUTS = [

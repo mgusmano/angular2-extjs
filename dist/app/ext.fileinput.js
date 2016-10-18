@@ -115,7 +115,9 @@ var extfileinputMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extfileinputMetaData.OUTPUTS = [

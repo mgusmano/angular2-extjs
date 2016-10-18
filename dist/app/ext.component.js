@@ -91,7 +91,9 @@ var extcomponentMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcomponentMetaData.OUTPUTS = [

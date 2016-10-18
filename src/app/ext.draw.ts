@@ -8,7 +8,9 @@ class extdrawMetaData {
 		'gradients',
 		'resizeHandler',
 		'sprites',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

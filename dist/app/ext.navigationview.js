@@ -105,7 +105,9 @@ var extnavigationviewMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extnavigationviewMetaData.OUTPUTS = [

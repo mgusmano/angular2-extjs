@@ -115,7 +115,9 @@ var extd3_treemapMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_treemapMetaData.OUTPUTS = [

@@ -27,7 +27,9 @@ var extcalendar_weekMetaData = (function () {
         'value',
         'view',
         'visibleDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_weekMetaData.OUTPUTS = [

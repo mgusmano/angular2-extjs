@@ -25,7 +25,9 @@ var extcalendar_form_addMetaData = (function () {
         'event',
         'title',
         'view',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_form_addMetaData.OUTPUTS = [

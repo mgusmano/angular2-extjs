@@ -58,7 +58,9 @@ var exttreelistMetaData = (function () {
         'width',
         'x',
         'y',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttreelistMetaData.OUTPUTS = [

@@ -118,7 +118,9 @@ var extmenuMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extmenuMetaData.OUTPUTS = [

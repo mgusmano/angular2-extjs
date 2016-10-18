@@ -33,7 +33,9 @@ var extgaugeMetaData = (function () {
         'trackStyle',
         'value',
         'valueStyle',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extgaugeMetaData.OUTPUTS = [

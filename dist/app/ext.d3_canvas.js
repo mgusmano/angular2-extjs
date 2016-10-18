@@ -95,7 +95,9 @@ var extd3_canvasMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extd3_canvasMetaData.OUTPUTS = [

@@ -21,7 +21,9 @@ var extcalendar_listMetaData = (function () {
     extcalendar_listMetaData.XTYPE = 'calendar-list';
     extcalendar_listMetaData.INPUTNAMES = [
         'enableToggle',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_listMetaData.OUTPUTS = [

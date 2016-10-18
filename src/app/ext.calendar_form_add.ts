@@ -9,7 +9,9 @@ class extcalendar_form_addMetaData {
 		'event',
 		'title',
 		'view',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

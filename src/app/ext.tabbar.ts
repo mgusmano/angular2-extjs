@@ -90,7 +90,9 @@ class exttabbarMetaData {
 		'xtype',
 		'y',
 		'zIndex',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -122,7 +122,9 @@ var extspinnerfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extspinnerfieldMetaData.OUTPUTS = [

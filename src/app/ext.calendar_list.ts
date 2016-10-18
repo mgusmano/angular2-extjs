@@ -5,7 +5,9 @@ class extcalendar_listMetaData {
 	public static XTYPE: string = 'calendar-list';
 	public static INPUTNAMES: string[] = [
 		'enableToggle',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -111,7 +111,9 @@ var extbuttonMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extbuttonMetaData.OUTPUTS = [

@@ -91,7 +91,9 @@ var extlabelMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extlabelMetaData.OUTPUTS = [

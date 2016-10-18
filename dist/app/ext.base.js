@@ -25,7 +25,12 @@ var extbase = (function () {
         var arrayLength = ExtJSComponentRefArray.length;
         for (var i = 1; i < arrayLength; i++) {
             var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
-            firstExtJS.add(obj);
+            if (obj.config.docked != null) {
+                firstExtJS.insert(0, obj);
+            }
+            else {
+                firstExtJS.add(obj);
+            }
         }
     };
     extbase.prototype.OnInit = function (dynamicTarget, metadata) {
@@ -61,12 +66,12 @@ var extbase = (function () {
             if (me[prop] != undefined &&
                 prop != 'listeners' &&
                 prop != 'config' &&
-                prop != 'nofit') {
+                prop != 'fitToParent') {
                 o[prop] = me[prop];
             }
             ;
         }
-        if ('true' == me.fit) {
+        if ('true' == me.fitToParent) {
             o.top = 0,
                 o.left = 0,
                 o.width = '100%',
@@ -77,6 +82,8 @@ var extbase = (function () {
         }
         ;
         me.extjsObject = Ext.create(o);
+        me.ext = me.extjsObject;
+        me.x = me.extjsObject;
         var componentFactory;
         var type;
         if (me.component != undefined) {

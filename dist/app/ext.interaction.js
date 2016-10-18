@@ -24,7 +24,9 @@ var extinteractionMetaData = (function () {
         'enabled',
         'gesture',
         'listeners',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extinteractionMetaData.OUTPUTS = [

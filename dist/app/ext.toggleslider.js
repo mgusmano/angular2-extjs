@@ -101,7 +101,9 @@ var exttogglesliderMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttogglesliderMetaData.OUTPUTS = [

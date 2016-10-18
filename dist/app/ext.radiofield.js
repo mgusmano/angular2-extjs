@@ -109,7 +109,9 @@ var extradiofieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extradiofieldMetaData.OUTPUTS = [

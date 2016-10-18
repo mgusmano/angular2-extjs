@@ -24,7 +24,9 @@ var extcalendar_daysMetaData = (function () {
         'dayHeader',
         'eventRelayers',
         'view',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_daysMetaData.OUTPUTS = [

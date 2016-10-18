@@ -124,7 +124,9 @@ var extmessageboxMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extmessageboxMetaData.OUTPUTS = [

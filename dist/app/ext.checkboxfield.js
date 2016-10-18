@@ -109,7 +109,9 @@ var extcheckboxfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcheckboxfieldMetaData.OUTPUTS = [

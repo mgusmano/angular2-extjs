@@ -129,7 +129,9 @@ var extpivotrangeeditorMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpivotrangeeditorMetaData.OUTPUTS = [

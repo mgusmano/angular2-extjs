@@ -41,7 +41,9 @@ var extcalendar_dayviewMetaData = (function () {
         'timezoneOffset',
         'value',
         'visibleDays',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendar_dayviewMetaData.OUTPUTS = [

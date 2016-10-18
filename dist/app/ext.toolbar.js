@@ -104,7 +104,9 @@ var exttoolbarMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttoolbarMetaData.OUTPUTS = [

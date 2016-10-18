@@ -100,7 +100,9 @@ var extmediaMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extmediaMetaData.OUTPUTS = [

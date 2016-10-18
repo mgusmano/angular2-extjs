@@ -40,7 +40,9 @@ var extpolarMetaData = (function () {
         'store',
         'style',
         'theme',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extpolarMetaData.OUTPUTS = [

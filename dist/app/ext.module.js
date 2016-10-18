@@ -11,8 +11,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var ext_1 = require('./ext');
 var ext_ngcomponent_1 = require('./ext.ngcomponent');
-var ext_actionsheet_1 = require('./ext.actionsheet');
-var ext_audio_1 = require('./ext.audio');
 var ext_button_1 = require('./ext.button');
 var ext_calendar_event_1 = require('./ext.calendar_event');
 var ext_calendar_form_add_1 = require('./ext.calendar_form_add');
@@ -33,9 +31,6 @@ var ext_calendar_multiview_1 = require('./ext.calendar_multiview');
 var ext_calendar_weekview_1 = require('./ext.calendar_weekview');
 var ext_calendar_weeksview_1 = require('./ext.calendar_weeksview');
 var ext_carousel_1 = require('./ext.carousel');
-var ext_carouselindicator_1 = require('./ext.carouselindicator');
-var ext_axis_1 = require('./ext.axis');
-var ext_axis3d_1 = require('./ext.axis3d');
 var ext_cartesian_1 = require('./ext.cartesian');
 var ext_interaction_1 = require('./ext.interaction');
 var ext_polar_1 = require('./ext.polar');
@@ -125,8 +120,6 @@ var ExtModule = (function () {
             exports: [
                 ext_1.ext,
                 ext_ngcomponent_1.extngcomponent,
-                ext_actionsheet_1.extactionsheet,
-                ext_audio_1.extaudio,
                 ext_button_1.extbutton,
                 ext_calendar_event_1.extcalendar_event,
                 ext_calendar_form_add_1.extcalendar_form_add,
@@ -147,9 +140,6 @@ var ExtModule = (function () {
                 ext_calendar_weekview_1.extcalendar_weekview,
                 ext_calendar_weeksview_1.extcalendar_weeksview,
                 ext_carousel_1.extcarousel,
-                ext_carouselindicator_1.extcarouselindicator,
-                ext_axis_1.extaxis,
-                ext_axis3d_1.extaxis3d,
                 ext_cartesian_1.extcartesian,
                 ext_interaction_1.extinteraction,
                 ext_polar_1.extpolar,
@@ -235,8 +225,6 @@ var ExtModule = (function () {
             declarations: [
                 ext_1.ext,
                 ext_ngcomponent_1.extngcomponent,
-                ext_actionsheet_1.extactionsheet,
-                ext_audio_1.extaudio,
                 ext_button_1.extbutton,
                 ext_calendar_event_1.extcalendar_event,
                 ext_calendar_form_add_1.extcalendar_form_add,
@@ -257,9 +245,6 @@ var ExtModule = (function () {
                 ext_calendar_weekview_1.extcalendar_weekview,
                 ext_calendar_weeksview_1.extcalendar_weeksview,
                 ext_carousel_1.extcarousel,
-                ext_carouselindicator_1.extcarouselindicator,
-                ext_axis_1.extaxis,
-                ext_axis3d_1.extaxis3d,
                 ext_cartesian_1.extcartesian,
                 ext_interaction_1.extinteraction,
                 ext_polar_1.extpolar,

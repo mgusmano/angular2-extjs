@@ -129,7 +129,9 @@ var extformpanelMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extformpanelMetaData.OUTPUTS = [

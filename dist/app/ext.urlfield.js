@@ -115,7 +115,9 @@ var exturlfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exturlfieldMetaData.OUTPUTS = [

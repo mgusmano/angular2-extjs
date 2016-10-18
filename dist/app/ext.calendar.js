@@ -38,7 +38,9 @@ var extcalendarMetaData = (function () {
         'todayButton',
         'value',
         'views',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extcalendarMetaData.OUTPUTS = [

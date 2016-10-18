@@ -128,7 +128,9 @@ var exttooltipMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     exttooltipMetaData.OUTPUTS = [

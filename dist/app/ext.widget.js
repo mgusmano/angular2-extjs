@@ -52,7 +52,9 @@ var extwidgetMetaData = (function () {
         'width',
         'x',
         'y',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extwidgetMetaData.OUTPUTS = [

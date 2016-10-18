@@ -17,7 +17,9 @@ class extgaugeMetaData {
 		'trackStyle',
 		'value',
 		'valueStyle',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

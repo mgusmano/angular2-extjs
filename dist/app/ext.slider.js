@@ -101,7 +101,9 @@ var extsliderMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsliderMetaData.OUTPUTS = [

@@ -115,7 +115,9 @@ var extsearchfieldMetaData = (function () {
         'xtype',
         'y',
         'zIndex',
-        'fit',
+        'platformConfig',
+        'responsiveConfig',
+        'fitToParent',
         'config'
     ];
     extsearchfieldMetaData.OUTPUTS = [

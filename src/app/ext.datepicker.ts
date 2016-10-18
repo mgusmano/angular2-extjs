@@ -114,7 +114,9 @@ class extdatepickerMetaData {
 		'yearText',
 		'yearTo',
 		'zIndex',
-		'fit',
+		'platformConfig',
+		'responsiveConfig',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [
