@@ -5,7 +5,7 @@ launch(data);
 function launch(data) {
 	var items = data.global.items;
 	var commaOrBlank = "";
-	var prefix = "ext";
+	var prefix = "x";
 	var dist = "app/";
 	var root = "src/";
 	var folder = root + dist;
@@ -194,7 +194,7 @@ ${exports} ],
 		${prefix}ngcomponent,
 ${declarations} ]
 })
-export class ExtModule { }
+export class ${prefix}Module { }
 	`
 }
 
@@ -204,7 +204,7 @@ import {AfterContentInit,AfterViewInit,Attribute,Component,ComponentFactory,Comp
 	ElementRef,EventEmitter,OnInit,QueryList,Type,ViewChild,ViewContainerRef
 } from '@angular/core';
 
-export class extbase{
+export class ${prefix}base{
 	public extjsObject: any;
 	private rootElement: any;
 	private listeners = {};
@@ -318,7 +318,7 @@ export class extbase{
 
 function doExt(prefix) {
 	return `import { Component, OnInit, ViewChild, ElementRef, Attribute, ComponentFactory, ComponentFactoryResolver, ViewContainerRef, forwardRef, ContentChildren, QueryList, Type } from '@angular/core';
-import { extbase } from './ext.base';
+import { ${prefix}base } from './${prefix}.base';
 class extMetaData {
 	public static XTYPE: string = '';
 	public static INPUTNAMES: string[] = ['xtype','fitToParent'];
@@ -326,17 +326,17 @@ class extMetaData {
 	public static OUTPUTNAMES: string[] = ['click'];
 }
 @Component({
-  selector: 'ext' + extMetaData.XTYPE,
+  selector: '${prefix}' + extMetaData.XTYPE,
 	inputs: extMetaData.INPUTNAMES.concat('config'),
 	outputs: extMetaData.OUTPUTNAMES.concat('ready'),
-	providers: [{provide: extbase, useExisting: forwardRef(() => ext)}],
+	providers: [{provide: ${prefix}base, useExisting: forwardRef(() => ${prefix})}],
 	template: '<template #dynamic></template>'
 })
-export class ext extends extbase implements OnInit {
+export class ${prefix} extends ${prefix}base implements OnInit {
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, extMetaData);
 	}
-	@ContentChildren(extbase,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	@ContentChildren(${prefix}base,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
 	@ViewChild('dynamic',{read: ViewContainerRef}) dynamicRef: ViewContainerRef;
 	ngAfterContentInit() { this.AfterContentInit(this.extbaseRef); }
 	ngOnInit() { this.OnInit(this.dynamicRef); }
@@ -346,7 +346,7 @@ export class ext extends extbase implements OnInit {
 
 function doExtNgComponent(prefix) {
 	return `import {Component,ViewChild,ElementRef,ComponentFactoryResolver,ViewContainerRef,forwardRef,ContentChildren,QueryList} from '@angular/core';
-import { extbase } from './ext.base';
+import { ${prefix}base } from './${prefix}.base';
 class ExtNgComponentMetaData {
 	public static XTYPE: string = 'container';
 	public static INPUTNAMES: string[] = ['selector','component','selectorParams'];
@@ -354,14 +354,14 @@ class ExtNgComponentMetaData {
 	public static OUTPUTNAMES: string[] = [];
 }
 @Component({
-  selector: 'ext-ngcomponent',
+  selector: '${prefix}-ngcomponent',
 	inputs: ExtNgComponentMetaData.INPUTNAMES.concat('config'),
 	outputs: ExtNgComponentMetaData.OUTPUTNAMES.concat('ready'),
-	providers: [{provide: extbase, useExisting: forwardRef(() => extngcomponent)}],
+	providers: [{provide: ${prefix}base, useExisting: forwardRef(() => ${prefix}ngcomponent)}],
 	template: '<template #dynamic></template>'
 })
-export class extngcomponent  extends extbase {
-	@ContentChildren(extbase,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+export class ${prefix}ngcomponent  extends ${prefix}base {
+	@ContentChildren(${prefix}base,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
 	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef: ViewContainerRef;
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, ExtNgComponentMetaData);
@@ -373,7 +373,7 @@ export class extngcomponent  extends extbase {
 }
 
 function doExtClass(prefix) {
-	return `export class extclass {
+	return `export class ${prefix}class {
 	public className: any;
 	public extend: any;
 	public defineConfig: any;
@@ -390,6 +390,8 @@ function doExtClass(prefix) {
 		this.defineConfig = defineConfig;
 		this.createConfig = createConfig;
 		this.extjsObject = Ext.create(className, createConfig);
+		this.ext = this.extjsObject;
+		this.x = this.extjsObject;
 	}
 }
 `

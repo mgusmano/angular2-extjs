@@ -1,2 +1,2 @@
-export * from './app/ext.module';
-export * from './app/ext.class';
+export * from './app/x.module';
+export * from './app/x.class';
