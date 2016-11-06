@@ -3,6 +3,7 @@ var data = require('./modern-all-classes-flatten.json');
 launch(data);
 
 function launch(data) {
+	debugger;
 	var items = data.global.items;
 	var commaOrBlank = "";
 	var prefix = "x";
@@ -18,7 +19,10 @@ function launch(data) {
 	var o = {};
 	for (i = 0; i < items.length; i++) { 
 		o = items[i];
-
+//		console.log(o.name);
+		// if (o.alias != undefined) {
+		// 	console.log(o.alias);
+		// }
 		if (o.alias != undefined && 
 				o.alias.substring(0, 6) == 'widget' && 
 				o.alias.substring(7).indexOf('.') == -1 && 

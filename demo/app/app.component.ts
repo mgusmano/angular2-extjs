@@ -5,12 +5,12 @@ import { Component } from '@angular/core';
 	template: `
 		<div style="margin: 0 auto; width: 700px; padding: 10px; ">
 			<h1>Ext JS Bridge for Angular2</h1>
-			<ext-grid
+			<x-grid
 				[columns]= "gridcolumns" 
 				[store]="gridstore"
 				[config]="gridconfig"
 				(select)="onGridSelect($event)"
-			></ext-grid>
+			></x-grid>
 		</div>
 	`,
 	styles: ['']

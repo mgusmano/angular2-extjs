@@ -5,6 +5,7 @@ go to angular2-extjs folder
 node all.js (fills src/app folders)
 tsc (creates dist folder)
 cp -r demo dist/demo/
+(commit to git)
 npm version patch
 cp README.md dist/
 cp package.json dist/
