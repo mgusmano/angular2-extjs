@@ -9,7 +9,6 @@ cp -r demo dist/demo/
 npm version patch
 cp README.md dist/
 cp package.json dist/
-
 cd dist
 npm publish
 
