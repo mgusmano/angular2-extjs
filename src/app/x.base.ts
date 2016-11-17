@@ -28,13 +28,16 @@ export class xbase{
 	}
 
 	AfterContentInit(ExtJSBaseRef) {
-		var extJSRootComponentRef : ViewContainerRef = ExtJSBaseRef.first;
-		var firstExtJS = extJSRootComponentRef['_element'].component.extjsObject;
+		//var extJSRootComponentRef : ViewContainerRef = ExtJSBaseRef.first;
+		var extJSRootComponentRef : xbase = ExtJSBaseRef.first;
+		//var firstExtJS = extJSRootComponentRef['_element'].component.extjsObject;
+		var firstExtJS = extJSRootComponentRef.extjsObject;
 		firstExtJS.setRenderTo(this.myElement.nativeElement);
 		var ExtJSComponentRefArray: any = ExtJSBaseRef.toArray();
 		var arrayLength = ExtJSComponentRefArray.length;
 		for (var i = 1; i < arrayLength; i++) {
-			var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
+			//var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
+			var obj = ExtJSComponentRefArray[i].extjsObject;
 			if (obj.config.docked != null) {
 				firstExtJS.insert(0, obj);
 			}

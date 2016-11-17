@@ -19,12 +19,12 @@ var xbase = (function () {
     }
     xbase.prototype.AfterContentInit = function (ExtJSBaseRef) {
         var extJSRootComponentRef = ExtJSBaseRef.first;
-        var firstExtJS = extJSRootComponentRef['_element'].component.extjsObject;
+        var firstExtJS = extJSRootComponentRef.extjsObject;
         firstExtJS.setRenderTo(this.myElement.nativeElement);
         var ExtJSComponentRefArray = ExtJSBaseRef.toArray();
         var arrayLength = ExtJSComponentRefArray.length;
         for (var i = 1; i < arrayLength; i++) {
-            var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
+            var obj = ExtJSComponentRefArray[i].extjsObject;
             if (obj.config.docked != null) {
                 firstExtJS.insert(0, obj);
             }

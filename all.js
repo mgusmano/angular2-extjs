@@ -233,13 +233,16 @@ export class ${prefix}base{
 	}
 
 	AfterContentInit(ExtJSBaseRef) {
-		var extJSRootComponentRef : ViewContainerRef = ExtJSBaseRef.first;
-		var firstExtJS = extJSRootComponentRef['_element'].component.extjsObject;
+		//var extJSRootComponentRef : ViewContainerRef = ExtJSBaseRef.first;
+		var extJSRootComponentRef : xbase = ExtJSBaseRef.first;
+		//var firstExtJS = extJSRootComponentRef['_element'].component.extjsObject;
+		var firstExtJS = extJSRootComponentRef.extjsObject;
 		firstExtJS.setRenderTo(this.myElement.nativeElement);
 		var ExtJSComponentRefArray: any = ExtJSBaseRef.toArray();
 		var arrayLength = ExtJSComponentRefArray.length;
 		for (var i = 1; i < arrayLength; i++) {
-			var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
+			//var obj = ExtJSComponentRefArray[i]['_element'].component.extjsObject;
+			var obj = ExtJSComponentRefArray[i].extjsObject;
 			if (obj.config.docked != null) {
 				firstExtJS.insert(0, obj);
 			}
@@ -340,7 +343,8 @@ export class ${prefix} extends ${prefix}base implements OnInit {
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, extMetaData);
 	}
-	@ContentChildren(${prefix}base,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	//@ContentChildren(${prefix}base,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	@ContentChildren(${prefix}base,{read: xbase}) extbaseRef: QueryList<xbase>;
 	@ViewChild('dynamic',{read: ViewContainerRef}) dynamicRef: ViewContainerRef;
 	ngAfterContentInit() { this.AfterContentInit(this.extbaseRef); }
 	ngOnInit() { this.OnInit(this.dynamicRef); }

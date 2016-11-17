@@ -17,7 +17,8 @@ export class x extends xbase implements OnInit {
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, extMetaData);
 	}
-	@ContentChildren(xbase,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	//@ContentChildren(xbase,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	@ContentChildren(xbase,{read: xbase}) extbaseRef: QueryList<xbase>;
 	@ViewChild('dynamic',{read: ViewContainerRef}) dynamicRef: ViewContainerRef;
 	ngAfterContentInit() { this.AfterContentInit(this.extbaseRef); }
 	ngOnInit() { this.OnInit(this.dynamicRef); }
