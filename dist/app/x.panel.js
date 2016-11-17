@@ -187,7 +187,7 @@ var xpanel = (function (_super) {
     xpanel.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xpanel.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xpanelMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xpanel.prototype, "extbaseRef", void 0);
     __decorate([

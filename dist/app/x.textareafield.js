@@ -193,7 +193,7 @@ var xtextareafield = (function (_super) {
     xtextareafield.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xtextareafield.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xtextareafieldMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xtextareafield.prototype, "extbaseRef", void 0);
     __decorate([

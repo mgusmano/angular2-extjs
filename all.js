@@ -147,7 +147,8 @@ export class ${prefix}${className} extends ${prefix}base {
 	constructor(eRef:ElementRef,resolver:ComponentFactoryResolver,vcRef:ViewContainerRef) {
 		super(eRef,resolver,vcRef,${prefix}${className}MetaData);
 	}
-	@ContentChildren(${prefix}base,{read:ViewContainerRef}) extbaseRef:QueryList<ViewContainerRef>;
+	//@ContentChildren(${prefix}base,{read:ViewContainerRef}) extbaseRef:QueryList<ViewContainerRef>;
+	@ContentChildren(${prefix}base,{read: ${prefix}base}) extbaseRef: QueryList<${prefix}base>;
 	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef:ViewContainerRef;
 	ngAfterContentInit() {this.AfterContentInit(this.extbaseRef);}
 	ngOnInit() {this.OnInit(this.dynamicRef,${prefix}${className}MetaData);}
@@ -344,7 +345,7 @@ export class ${prefix} extends ${prefix}base implements OnInit {
 		super(myElement, componentFactoryResolver, viewContainerRef, extMetaData);
 	}
 	//@ContentChildren(${prefix}base,{read: ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
-	@ContentChildren(${prefix}base,{read: xbase}) extbaseRef: QueryList<xbase>;
+	@ContentChildren(${prefix}base,{read: ${prefix}base}) extbaseRef: QueryList<${prefix}base>;
 	@ViewChild('dynamic',{read: ViewContainerRef}) dynamicRef: ViewContainerRef;
 	ngAfterContentInit() { this.AfterContentInit(this.extbaseRef); }
 	ngOnInit() { this.OnInit(this.dynamicRef); }
@@ -369,7 +370,8 @@ class ExtNgComponentMetaData {
 	template: '<template #dynamic></template>'
 })
 export class ${prefix}ngcomponent  extends ${prefix}base {
-	@ContentChildren(${prefix}base,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	//@ContentChildren(${prefix}base,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	@ContentChildren(${prefix}base,{read: ${prefix}base}) extbaseRef: QueryList<${prefix}base>;
 	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef: ViewContainerRef;
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, ExtNgComponentMetaData);

@@ -158,7 +158,7 @@ var xindexbar = (function (_super) {
     xindexbar.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xindexbar.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xindexbarMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xindexbar.prototype, "extbaseRef", void 0);
     __decorate([

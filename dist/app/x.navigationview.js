@@ -184,7 +184,7 @@ var xnavigationview = (function (_super) {
     xnavigationview.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xnavigationview.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xnavigationviewMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xnavigationview.prototype, "extbaseRef", void 0);
     __decorate([

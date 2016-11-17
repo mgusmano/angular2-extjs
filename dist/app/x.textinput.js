@@ -187,7 +187,7 @@ var xtextinput = (function (_super) {
     xtextinput.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xtextinput.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xtextinputMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xtextinput.prototype, "extbaseRef", void 0);
     __decorate([

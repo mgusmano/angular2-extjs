@@ -180,7 +180,7 @@ var xd3_sunburst = (function (_super) {
     xd3_sunburst.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xd3_sunburst.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xd3_sunburstMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xd3_sunburst.prototype, "extbaseRef", void 0);
     __decorate([

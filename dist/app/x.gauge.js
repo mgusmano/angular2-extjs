@@ -54,7 +54,7 @@ var xgauge = (function (_super) {
     xgauge.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xgauge.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xgaugeMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xgauge.prototype, "extbaseRef", void 0);
     __decorate([

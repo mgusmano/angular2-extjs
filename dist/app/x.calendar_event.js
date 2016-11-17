@@ -52,7 +52,7 @@ var xcalendar_event = (function (_super) {
     xcalendar_event.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_event.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_eventMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_event.prototype, "extbaseRef", void 0);
     __decorate([

@@ -47,7 +47,7 @@ var xcalendar_multiview = (function (_super) {
     xcalendar_multiview.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_multiview.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_multiviewMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_multiview.prototype, "extbaseRef", void 0);
     __decorate([

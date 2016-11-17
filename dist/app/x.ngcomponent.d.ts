@@ -1,7 +1,7 @@
 import { ElementRef, ComponentFactoryResolver, ViewContainerRef, QueryList } from '@angular/core';
 import { xbase } from './x.base';
 export declare class xngcomponent extends xbase {
-    extbaseRef: QueryList<ViewContainerRef>;
+    extbaseRef: QueryList<xbase>;
     dynamicRef: ViewContainerRef;
     constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef);
     ngAfterContentInit(): void;

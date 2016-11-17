@@ -199,7 +199,7 @@ var xdatepickerfield = (function (_super) {
     xdatepickerfield.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xdatepickerfield.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xdatepickerfieldMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xdatepickerfield.prototype, "extbaseRef", void 0);
     __decorate([

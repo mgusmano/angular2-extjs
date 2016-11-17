@@ -47,7 +47,7 @@ var xcalendar_weeksheader = (function (_super) {
     xcalendar_weeksheader.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_weeksheader.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_weeksheaderMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_weeksheader.prototype, "extbaseRef", void 0);
     __decorate([

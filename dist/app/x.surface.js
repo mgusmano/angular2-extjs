@@ -82,7 +82,7 @@ var xsurface = (function (_super) {
     xsurface.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xsurface.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xsurfaceMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xsurface.prototype, "extbaseRef", void 0);
     __decorate([

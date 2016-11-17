@@ -80,7 +80,7 @@ var xcalendar_week = (function (_super) {
     xcalendar_week.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_week.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_weekMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_week.prototype, "extbaseRef", void 0);
     __decorate([

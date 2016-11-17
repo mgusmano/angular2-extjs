@@ -209,7 +209,7 @@ var xdatepicker = (function (_super) {
     xdatepicker.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xdatepicker.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xdatepickerMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xdatepicker.prototype, "extbaseRef", void 0);
     __decorate([

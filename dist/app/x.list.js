@@ -249,7 +249,7 @@ var xlist = (function (_super) {
     xlist.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xlist.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xlistMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xlist.prototype, "extbaseRef", void 0);
     __decorate([

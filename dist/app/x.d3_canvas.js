@@ -158,7 +158,7 @@ var xd3_canvas = (function (_super) {
     xd3_canvas.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xd3_canvas.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xd3_canvasMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xd3_canvas.prototype, "extbaseRef", void 0);
     __decorate([

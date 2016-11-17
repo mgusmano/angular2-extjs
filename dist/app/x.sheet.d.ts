@@ -2,7 +2,7 @@ import { ElementRef, ComponentFactoryResolver, ViewContainerRef, QueryList } fro
 import { xbase } from './x.base';
 export declare class xsheet extends xbase {
     constructor(eRef: ElementRef, resolver: ComponentFactoryResolver, vcRef: ViewContainerRef);
-    extbaseRef: QueryList<ViewContainerRef>;
+    extbaseRef: QueryList<xbase>;
     dynamicRef: ViewContainerRef;
     ngAfterContentInit(): void;
     ngOnInit(): void;

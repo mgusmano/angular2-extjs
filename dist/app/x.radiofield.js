@@ -176,7 +176,7 @@ var xradiofield = (function (_super) {
     xradiofield.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xradiofield.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xradiofieldMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xradiofield.prototype, "extbaseRef", void 0);
     __decorate([

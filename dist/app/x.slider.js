@@ -170,7 +170,7 @@ var xslider = (function (_super) {
     xslider.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xslider.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xsliderMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xslider.prototype, "extbaseRef", void 0);
     __decorate([

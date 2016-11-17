@@ -78,7 +78,7 @@ var xcalendar_day = (function (_super) {
     xcalendar_day.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_day.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_dayMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_day.prototype, "extbaseRef", void 0);
     __decorate([

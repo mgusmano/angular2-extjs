@@ -52,7 +52,7 @@ var xcalendar_form_add = (function (_super) {
     xcalendar_form_add.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_form_add.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_form_addMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_form_add.prototype, "extbaseRef", void 0);
     __decorate([

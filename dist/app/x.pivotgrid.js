@@ -340,7 +340,7 @@ var xpivotgrid = (function (_super) {
     xpivotgrid.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xpivotgrid.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xpivotgridMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xpivotgrid.prototype, "extbaseRef", void 0);
     __decorate([

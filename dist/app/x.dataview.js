@@ -229,7 +229,7 @@ var xdataview = (function (_super) {
     xdataview.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xdataview.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xdataviewMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xdataview.prototype, "extbaseRef", void 0);
     __decorate([

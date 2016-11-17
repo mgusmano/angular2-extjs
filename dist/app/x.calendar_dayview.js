@@ -90,7 +90,7 @@ var xcalendar_dayview = (function (_super) {
     xcalendar_dayview.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xcalendar_dayview.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xcalendar_dayviewMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xcalendar_dayview.prototype, "extbaseRef", void 0);
     __decorate([

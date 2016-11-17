@@ -152,7 +152,7 @@ var xspacer = (function (_super) {
     xspacer.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xspacer.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xspacerMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xspacer.prototype, "extbaseRef", void 0);
     __decorate([

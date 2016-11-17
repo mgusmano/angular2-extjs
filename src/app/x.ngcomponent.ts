@@ -14,7 +14,8 @@ class ExtNgComponentMetaData {
 	template: '<template #dynamic></template>'
 })
 export class xngcomponent  extends xbase {
-	@ContentChildren(xbase,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	//@ContentChildren(xbase,{read:ViewContainerRef}) extbaseRef: QueryList<ViewContainerRef>;
+	@ContentChildren(xbase,{read: xbase}) extbaseRef: QueryList<xbase>;
 	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef: ViewContainerRef;
 	constructor(myElement: ElementRef, componentFactoryResolver: ComponentFactoryResolver, viewContainerRef: ViewContainerRef) {
 		super(myElement, componentFactoryResolver, viewContainerRef, ExtNgComponentMetaData);

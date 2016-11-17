@@ -162,7 +162,8 @@ export class xd3_partition extends xbase {
 	constructor(eRef:ElementRef,resolver:ComponentFactoryResolver,vcRef:ViewContainerRef) {
 		super(eRef,resolver,vcRef,xd3_partitionMetaData);
 	}
-	@ContentChildren(xbase,{read:ViewContainerRef}) extbaseRef:QueryList<ViewContainerRef>;
+	//@ContentChildren(xbase,{read:ViewContainerRef}) extbaseRef:QueryList<ViewContainerRef>;
+	@ContentChildren(xbase,{read: xbase}) extbaseRef: QueryList<xbase>;
 	@ViewChild('dynamic',{read:ViewContainerRef}) dynamicRef:ViewContainerRef;
 	ngAfterContentInit() {this.AfterContentInit(this.extbaseRef);}
 	ngOnInit() {this.OnInit(this.dynamicRef,xd3_partitionMetaData);}

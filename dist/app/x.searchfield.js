@@ -192,7 +192,7 @@ var xsearchfield = (function (_super) {
     xsearchfield.prototype.ngAfterContentInit = function () { this.AfterContentInit(this.extbaseRef); };
     xsearchfield.prototype.ngOnInit = function () { this.OnInit(this.dynamicRef, xsearchfieldMetaData); };
     __decorate([
-        core_1.ContentChildren(x_base_1.xbase, { read: core_1.ViewContainerRef }), 
+        core_1.ContentChildren(x_base_1.xbase, { read: x_base_1.xbase }), 
         __metadata('design:type', core_1.QueryList)
     ], xsearchfield.prototype, "extbaseRef", void 0);
     __decorate([
