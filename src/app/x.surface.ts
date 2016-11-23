@@ -43,7 +43,7 @@ class xsurfaceMetaData {
 		'y',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

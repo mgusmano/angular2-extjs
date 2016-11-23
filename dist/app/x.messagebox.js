@@ -126,7 +126,7 @@ var xmessageboxMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xmessageboxMetaData.OUTPUTS = [

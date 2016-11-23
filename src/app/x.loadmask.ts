@@ -81,7 +81,7 @@ class xloadmaskMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

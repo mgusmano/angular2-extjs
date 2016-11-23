@@ -23,9 +23,9 @@
   "author": "Sencha",
   "license": "MIT",
   "dependencies": {
-    "@angular/core": "2.2.0",
-    "@angular/common": "2.2.0",
-    "@angular/platform-browser": "2.2.0",
+    "@angular/core": "2.2.2",
+    "@angular/common": "2.2.2",
+    "@angular/platform-browser": "2.2.2",
     "rxjs": "5.0.0-beta.12",
     "zone.js": "^0.6.26"
   },

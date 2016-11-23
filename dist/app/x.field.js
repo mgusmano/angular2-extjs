@@ -109,7 +109,7 @@ var xfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xfieldMetaData.OUTPUTS = [

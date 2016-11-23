@@ -108,7 +108,7 @@ var xtitlebarMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xtitlebarMetaData.OUTPUTS = [

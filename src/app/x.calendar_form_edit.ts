@@ -11,7 +11,7 @@ class xcalendar_form_editMetaData {
 		'view',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

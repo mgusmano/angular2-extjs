@@ -103,7 +103,7 @@ var xd3_heatmapMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xd3_heatmapMetaData.OUTPUTS = [

@@ -124,7 +124,7 @@ var xdatepickernativefieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xdatepickernativefieldMetaData.OUTPUTS = [

@@ -111,7 +111,7 @@ var xcheckboxfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xcheckboxfieldMetaData.OUTPUTS = [

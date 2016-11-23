@@ -134,7 +134,7 @@ var xpickerslotMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpickerslotMetaData.OUTPUTS = [

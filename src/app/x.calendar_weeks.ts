@@ -10,7 +10,7 @@ class xcalendar_weeksMetaData {
 		'view',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

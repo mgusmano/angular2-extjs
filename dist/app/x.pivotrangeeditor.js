@@ -131,7 +131,7 @@ var xpivotrangeeditorMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpivotrangeeditorMetaData.OUTPUTS = [

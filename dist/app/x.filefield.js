@@ -112,7 +112,7 @@ var xfilefieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xfilefieldMetaData.OUTPUTS = [

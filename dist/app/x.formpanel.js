@@ -131,7 +131,7 @@ var xformpanelMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xformpanelMetaData.OUTPUTS = [

@@ -107,7 +107,7 @@ var xnavigationviewMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xnavigationviewMetaData.OUTPUTS = [

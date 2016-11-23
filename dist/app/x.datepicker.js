@@ -132,7 +132,7 @@ var xdatepickerMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xdatepickerMetaData.OUTPUTS = [

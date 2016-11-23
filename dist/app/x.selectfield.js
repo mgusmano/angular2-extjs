@@ -129,7 +129,7 @@ var xselectfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xselectfieldMetaData.OUTPUTS = [

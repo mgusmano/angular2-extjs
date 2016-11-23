@@ -121,7 +121,7 @@ var xpickerfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpickerfieldMetaData.OUTPUTS = [

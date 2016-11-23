@@ -54,7 +54,7 @@ var xwidgetMetaData = (function () {
         'y',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xwidgetMetaData.OUTPUTS = [

@@ -118,7 +118,7 @@ var xtextareafieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xtextareafieldMetaData.OUTPUTS = [

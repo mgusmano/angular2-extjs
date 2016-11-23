@@ -12,7 +12,7 @@ class xcalendar_weeksheaderMetaData {
 		'visibleDays',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

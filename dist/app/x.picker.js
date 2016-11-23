@@ -126,7 +126,7 @@ var xpickerMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpickerMetaData.OUTPUTS = [

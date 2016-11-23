@@ -94,7 +94,7 @@ class xpagingtoolbarMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

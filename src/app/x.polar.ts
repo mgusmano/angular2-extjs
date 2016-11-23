@@ -26,7 +26,7 @@ class xpolarMetaData {
 		'theme',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

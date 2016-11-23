@@ -35,7 +35,7 @@ var xgaugeMetaData = (function () {
         'valueStyle',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xgaugeMetaData.OUTPUTS = [

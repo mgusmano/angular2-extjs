@@ -115,7 +115,7 @@ var xsliderfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xsliderfieldMetaData.OUTPUTS = [

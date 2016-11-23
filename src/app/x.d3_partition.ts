@@ -97,7 +97,7 @@ class xd3_partitionMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -148,7 +148,7 @@ var xgridMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xgridMetaData.OUTPUTS = [

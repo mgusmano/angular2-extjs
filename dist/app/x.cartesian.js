@@ -41,7 +41,7 @@ var xcartesianMetaData = (function () {
         'theme',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xcartesianMetaData.OUTPUTS = [

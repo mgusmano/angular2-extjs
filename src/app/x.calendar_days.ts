@@ -10,7 +10,7 @@ class xcalendar_daysMetaData {
 		'view',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

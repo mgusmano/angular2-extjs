@@ -117,7 +117,7 @@ var xsearchfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xsearchfieldMetaData.OUTPUTS = [

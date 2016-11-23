@@ -60,7 +60,7 @@ function launch(data) {
 					});
 					sINPUTS = sINPUTS + tab + tab + "'" + "platformConfig"+ "'" + "," + newLine;
 					sINPUTS = sINPUTS + tab + tab + "'" + "responsiveConfig"+ "'" + "," + newLine;
-					sINPUTS = sINPUTS + tab + tab + "'" + "fitToParent"+ "'" + "," + newLine;
+					sINPUTS = sINPUTS + tab + tab + "'" + "fittoparent"+ "'" + "," + newLine;
 					sINPUTS = sINPUTS + tab + tab + "'" + "config" + "'" + "" + newLine;
 				}
 

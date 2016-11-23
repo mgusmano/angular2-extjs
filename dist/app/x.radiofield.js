@@ -111,7 +111,7 @@ var xradiofieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xradiofieldMetaData.OUTPUTS = [

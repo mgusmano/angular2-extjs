@@ -42,7 +42,7 @@ var xpolarMetaData = (function () {
         'theme',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpolarMetaData.OUTPUTS = [

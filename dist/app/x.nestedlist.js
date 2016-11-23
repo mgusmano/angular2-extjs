@@ -125,7 +125,7 @@ var xnestedlistMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xnestedlistMetaData.OUTPUTS = [

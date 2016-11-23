@@ -94,7 +94,7 @@ var xmaskMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xmaskMetaData.OUTPUTS = [

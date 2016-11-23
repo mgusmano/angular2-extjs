@@ -103,7 +103,7 @@ var xsliderMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xsliderMetaData.OUTPUTS = [

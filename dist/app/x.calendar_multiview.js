@@ -28,7 +28,7 @@ var xcalendar_multiviewMetaData = (function () {
         'views',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xcalendar_multiviewMetaData.OUTPUTS = [

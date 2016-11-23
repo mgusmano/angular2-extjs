@@ -27,7 +27,7 @@ var xcalendar_dayMetaData = (function () {
         'visibleDays',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xcalendar_dayMetaData.OUTPUTS = [

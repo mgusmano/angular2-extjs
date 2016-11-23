@@ -104,7 +104,7 @@ var xvideoMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xvideoMetaData.OUTPUTS = [

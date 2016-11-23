@@ -28,7 +28,7 @@ class xcalendar_monthviewMetaData {
 		'weekendDays',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -60,7 +60,7 @@ var xtreelistMetaData = (function () {
         'y',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xtreelistMetaData.OUTPUTS = [

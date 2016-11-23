@@ -12,7 +12,7 @@ class xcalendar_multiviewMetaData {
 		'views',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -113,7 +113,7 @@ var xd3_partitionMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xd3_partitionMetaData.OUTPUTS = [

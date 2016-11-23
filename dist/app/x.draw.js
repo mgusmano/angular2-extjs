@@ -26,7 +26,7 @@ var xdrawMetaData = (function () {
         'sprites',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xdrawMetaData.OUTPUTS = [

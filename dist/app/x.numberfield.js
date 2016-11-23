@@ -120,7 +120,7 @@ var xnumberfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xnumberfieldMetaData.OUTPUTS = [

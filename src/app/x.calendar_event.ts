@@ -17,7 +17,7 @@ class xcalendar_eventMetaData {
 		'view',
 		'platformConfig',
 		'responsiveConfig',
-		'fitToParent',
+		'fittoparent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

@@ -23,7 +23,7 @@ var xcalendar_listMetaData = (function () {
         'enableToggle',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xcalendar_listMetaData.OUTPUTS = [

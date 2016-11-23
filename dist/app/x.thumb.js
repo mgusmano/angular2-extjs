@@ -95,7 +95,7 @@ var xthumbMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xthumbMetaData.OUTPUTS = [

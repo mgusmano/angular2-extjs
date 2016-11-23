@@ -119,7 +119,7 @@ var xpasswordfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xpasswordfieldMetaData.OUTPUTS = [

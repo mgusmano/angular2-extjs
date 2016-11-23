@@ -97,7 +97,7 @@ var xd3_canvasMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xd3_canvasMetaData.OUTPUTS = [

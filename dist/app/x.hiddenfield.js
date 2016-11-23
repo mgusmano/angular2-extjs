@@ -117,7 +117,7 @@ var xhiddenfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xhiddenfieldMetaData.OUTPUTS = [

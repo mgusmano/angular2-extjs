@@ -112,7 +112,7 @@ var xsegmentedbuttonMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xsegmentedbuttonMetaData.OUTPUTS = [

@@ -26,7 +26,7 @@ var xinteractionMetaData = (function () {
         'listeners',
         'platformConfig',
         'responsiveConfig',
-        'fitToParent',
+        'fittoparent',
         'config'
     ];
     xinteractionMetaData.OUTPUTS = [
