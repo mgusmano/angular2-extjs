@@ -19,7 +19,7 @@ var extMetaData = (function () {
     function extMetaData() {
     }
     extMetaData.XTYPE = '';
-    extMetaData.INPUTNAMES = ['xtype', 'fitToParent'];
+    extMetaData.INPUTNAMES = ['xtype', 'fittoparent'];
     extMetaData.OUTPUTS = [{ name: 'click', parameters: 'control,record,eOpts' }];
     extMetaData.OUTPUTNAMES = ['click'];
     return extMetaData;

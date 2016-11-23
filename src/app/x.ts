@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef, Attribute, ComponentFactory, 
 import { xbase } from './x.base';
 class extMetaData {
 	public static XTYPE: string = '';
-	public static INPUTNAMES: string[] = ['xtype','fitToParent'];
+	public static INPUTNAMES: string[] = ['xtype','fittoparent'];
 	public static OUTPUTS: any[] = [ { name: 'click', parameters: 'control,record,eOpts' }];
 	public static OUTPUTNAMES: string[] = ['click'];
 }

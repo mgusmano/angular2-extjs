@@ -20,7 +20,6 @@ export class xbase{
 		this.xtype = metaData.XTYPE;
 		this.inputs = metaData.INPUTNAMES;
 		this.rootElement = myElement.nativeElement;
-		let me = this;
 		this['ready'] = new EventEmitter();
 		metaData.OUTPUTS.forEach( (event: any, n: any) => {
 			(<any>this)[event.name] = new EventEmitter();
@@ -80,11 +79,11 @@ export class xbase{
 			if (me[prop] != undefined && 
 					prop != 'listeners' && 
 					prop != 'config' && 
-					prop != 'fitToParent') { 
+					prop != 'fittoparent') { 
 				o[prop] = me[prop]; 
 			};
 		}
-		if ('true' == me.fitToParent) {
+		if ('true' == me.fittoparent) {
 			o.top=0, 
 			o.left=0, 
 			o.width='100%', 

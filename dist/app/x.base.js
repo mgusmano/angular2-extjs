@@ -11,7 +11,6 @@ var xbase = (function () {
         this.xtype = metaData.XTYPE;
         this.inputs = metaData.INPUTNAMES;
         this.rootElement = myElement.nativeElement;
-        var me = this;
         this['ready'] = new core_1.EventEmitter();
         metaData.OUTPUTS.forEach(function (event, n) {
             _this[event.name] = new core_1.EventEmitter();
@@ -66,12 +65,12 @@ var xbase = (function () {
             if (me[prop] != undefined &&
                 prop != 'listeners' &&
                 prop != 'config' &&
-                prop != 'fitToParent') {
+                prop != 'fittoparent') {
                 o[prop] = me[prop];
             }
             ;
         }
-        if ('true' == me.fitToParent) {
+        if ('true' == me.fittoparent) {
             o.top = 0,
                 o.left = 0,
                 o.width = '100%',
