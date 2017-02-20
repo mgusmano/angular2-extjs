@@ -5,13 +5,32 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { StringWrapper } from '../facade/lang';
-var CAMEL_CASE_REGEXP = /([A-Z])/g;
-var DASH_CASE_REGEXP = /-([a-z])/g;
+var /** @type {?} */ CAMEL_CASE_REGEXP = /([A-Z])/g;
+var /** @type {?} */ DASH_CASE_REGEXP = /-([a-z])/g;
+/**
+ * @param {?} input
+ * @return {?}
+ */
 export function camelCaseToDashCase(input) {
-    return StringWrapper.replaceAllMapped(input, CAMEL_CASE_REGEXP, function (m) { return '-' + m[1].toLowerCase(); });
+    return input.replace(CAMEL_CASE_REGEXP, function () {
+        var m = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            m[_i - 0] = arguments[_i];
+        }
+        return '-' + m[1].toLowerCase();
+    });
 }
+/**
+ * @param {?} input
+ * @return {?}
+ */
 export function dashCaseToCamelCase(input) {
-    return StringWrapper.replaceAllMapped(input, DASH_CASE_REGEXP, function (m) { return m[1].toUpperCase(); });
+    return input.replace(DASH_CASE_REGEXP, function () {
+        var m = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            m[_i - 0] = arguments[_i];
+        }
+        return m[1].toUpperCase();
+    });
 }
 //# sourceMappingURL=util.js.map

@@ -14,12 +14,8 @@ import { TeardownLogic } from '../Subscription';
  * @method skip
  * @owner Observable
  */
-export function skip<T>(total: number): Observable<T> {
+export function skip<T>(this: Observable<T>, total: number): Observable<T> {
   return this.lift(new SkipOperator(total));
-}
-
-export interface SkipSignature<T> {
-  (total: number): Observable<T>;
 }
 
 class SkipOperator<T> implements Operator<T, T> {
@@ -27,7 +23,7 @@ class SkipOperator<T> implements Operator<T, T> {
   }
 
   call(subscriber: Subscriber<T>, source: any): TeardownLogic {
-    return source._subscribe(new SkipSubscriber(subscriber, this.total));
+    return source.subscribe(new SkipSubscriber(subscriber, this.total));
   }
 }
 

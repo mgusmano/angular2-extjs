@@ -41,17 +41,13 @@ import { subscribeToResult } from '../util/subscribeToResult';
  * @method exhaust
  * @owner Observable
  */
-export function exhaust<T>(): Observable<T> {
+export function exhaust<T>(this: Observable<T>): Observable<T> {
   return this.lift(new SwitchFirstOperator<T>());
-}
-
-export interface SwitchFirstSignature<T> {
-  (): T;
 }
 
 class SwitchFirstOperator<T> implements Operator<T, T> {
   call(subscriber: Subscriber<T>, source: any): TeardownLogic {
-    return source._subscribe(new SwitchFirstSubscriber(subscriber));
+    return source.subscribe(new SwitchFirstSubscriber(subscriber));
   }
 }
 

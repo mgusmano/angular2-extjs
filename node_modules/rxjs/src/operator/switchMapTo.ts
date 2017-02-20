@@ -6,6 +6,11 @@ import { OuterSubscriber } from '../OuterSubscriber';
 import { InnerSubscriber } from '../InnerSubscriber';
 import { subscribeToResult } from '../util/subscribeToResult';
 
+/* tslint:disable:max-line-length */
+export function switchMapTo<T, R>(this: Observable<T>, observable: ObservableInput<R>): Observable<R>;
+export function switchMapTo<T, I, R>(this: Observable<T>, observable: ObservableInput<I>, resultSelector: (outerValue: T, innerValue: I, outerIndex: number, innerIndex: number) => R): Observable<R>;
+/* tslint:disable:max-line-length */
+
 /**
  * Projects each source value to the same Observable which is flattened multiple
  * times with {@link switch} in the output Observable.
@@ -50,18 +55,12 @@ import { subscribeToResult } from '../util/subscribeToResult';
  * @method switchMapTo
  * @owner Observable
  */
-export function switchMapTo<T, I, R>(innerObservable: Observable<I>,
+export function switchMapTo<T, I, R>(this: Observable<T>, innerObservable: Observable<I>,
                                      resultSelector?: (outerValue: T,
                                                        innerValue: I,
                                                        outerIndex: number,
-                                                       innerIndex: number) => R): Observable<R> {
+                                                       innerIndex: number) => R): Observable<I | R> {
   return this.lift(new SwitchMapToOperator(innerObservable, resultSelector));
-}
-
-export interface SwitchMapToSignature<T> {
-  <R>(observable: ObservableInput<R>): Observable<R>;
-  <I, R>(observable: ObservableInput<I>,
-         resultSelector: (outerValue: T, innerValue: I, outerIndex: number, innerIndex: number) => R): Observable<R>;
 }
 
 class SwitchMapToOperator<T, I, R> implements Operator<T, I> {
@@ -70,7 +69,7 @@ class SwitchMapToOperator<T, I, R> implements Operator<T, I> {
   }
 
   call(subscriber: Subscriber<I>, source: any): any {
-    return source._subscribe(new SwitchMapToSubscriber(subscriber, this.observable, this.resultSelector));
+    return source.subscribe(new SwitchMapToSubscriber(subscriber, this.observable, this.resultSelector));
   }
 }
 

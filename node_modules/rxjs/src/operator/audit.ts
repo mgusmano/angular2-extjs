@@ -48,12 +48,8 @@ import { subscribeToResult } from '../util/subscribeToResult';
  * @method audit
  * @owner Observable
  */
-export function audit<T>(durationSelector: (value: T) => SubscribableOrPromise<any>): Observable<T> {
+export function audit<T>(this: Observable<T>, durationSelector: (value: T) => SubscribableOrPromise<any>): Observable<T> {
   return this.lift(new AuditOperator(durationSelector));
-}
-
-export interface AuditSignature<T> {
-  (durationSelector: (value: T) => SubscribableOrPromise<any>): Observable<T>;
 }
 
 class AuditOperator<T> implements Operator<T, T> {
@@ -61,7 +57,7 @@ class AuditOperator<T> implements Operator<T, T> {
   }
 
   call(subscriber: Subscriber<T>, source: any): TeardownLogic {
-    return source._subscribe(new AuditSubscriber<T, T>(subscriber, this.durationSelector));
+    return source.subscribe(new AuditSubscriber<T, T>(subscriber, this.durationSelector));
   }
 }
 

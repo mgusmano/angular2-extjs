@@ -23,14 +23,14 @@
   "author": "Sencha",
   "license": "MIT",
   "dependencies": {
-    "@angular/core": "2.2.2",
-    "@angular/common": "2.2.2",
-    "@angular/platform-browser": "2.2.2",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "^0.6.26"
+    "@angular/core": "^2.4.8",
+    "@angular/common": "^2.4.8",
+    "@angular/platform-browser": "^2.4.8",
+    "rxjs": "^5.1.1",
+    "zone.js": "^0.7.7"
   },
   "devDependencies": {
-    "typescript": "^2.0.10",
+    "typescript": "^2.1.6",
     "uglifyjs": "^2.4.10",
     "umd": "^3.0.1"
   }

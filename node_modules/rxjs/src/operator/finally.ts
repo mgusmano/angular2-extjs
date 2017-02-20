@@ -11,12 +11,8 @@ import { Observable } from '../Observable';
  * @method finally
  * @owner Observable
  */
-export function _finally<T>(callback: () => void): Observable<T> {
+export function _finally<T>(this: Observable<T>, callback: () => void): Observable<T> {
   return this.lift(new FinallyOperator(callback));
-}
-
-export interface FinallySignature<T> {
-  (callback: () => void): Observable<T>;
 }
 
 class FinallyOperator<T> implements Operator<T, T> {
@@ -24,7 +20,7 @@ class FinallyOperator<T> implements Operator<T, T> {
   }
 
   call(subscriber: Subscriber<T>, source: any): TeardownLogic {
-    return source._subscribe(new FinallySubscriber(subscriber, this.callback));
+    return source.subscribe(new FinallySubscriber(subscriber, this.callback));
   }
 }
 

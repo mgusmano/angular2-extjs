@@ -11,6 +11,13 @@
     (factory());
 }(this, (function () { 'use strict';
 
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 var NEWLINE = '\n';
 var SEP = '  -------------  ';
 var IGNORE_FRAMES = [];
@@ -29,17 +36,17 @@ function getStacktraceWithCaughtError() {
     try {
         throw getStacktraceWithUncaughtError();
     }
-    catch (e) {
-        return e;
+    catch (error) {
+        return error;
     }
 }
 // Some implementations of exception handling don't create a stack trace if the exception
 // isn't thrown, however it's faster not to actually throw the exception.
 var error = getStacktraceWithUncaughtError();
 var coughtError = getStacktraceWithCaughtError();
-var getStacktrace = error.stack
-    ? getStacktraceWithUncaughtError
-    : (coughtError.stack ? getStacktraceWithCaughtError : getStacktraceWithUncaughtError);
+var getStacktrace = error.stack ?
+    getStacktraceWithUncaughtError :
+    (coughtError.stack ? getStacktraceWithCaughtError : getStacktraceWithUncaughtError);
 function getFrames(error) {
     return error.stack ? error.stack.split(NEWLINE) : [];
 }
@@ -85,7 +92,7 @@ Zone['longStackTraceZoneSpec'] = {
     onHandleError: function (parentZoneDelegate, currentZone, targetZone, error) {
         var parentTask = Zone.currentTask || error.task;
         if (error instanceof Error && parentTask) {
-            var stackSetSucceded = null;
+            var stackSetSucceeded = null;
             try {
                 var descriptor = Object.getOwnPropertyDescriptor(error, 'stack');
                 if (descriptor && descriptor.configurable) {
@@ -97,22 +104,27 @@ Zone['longStackTraceZoneSpec'] = {
                         }
                     };
                     Object.defineProperty(error, 'stack', descriptor);
-                    stackSetSucceded = true;
+                    stackSetSucceeded = true;
                 }
             }
-            catch (e) { }
-            var longStack = stackSetSucceded ? null : renderLongStackTrace(parentTask.data && parentTask.data[creationTrace], error.stack);
-            if (!stackSetSucceded) {
-                try {
-                    stackSetSucceded = error.stack = longStack;
-                }
-                catch (e) { }
+            catch (err) {
             }
-            if (!stackSetSucceded) {
+            var longStack = stackSetSucceeded ?
+                null :
+                renderLongStackTrace(parentTask.data && parentTask.data[creationTrace], error.stack);
+            if (!stackSetSucceeded) {
                 try {
-                    stackSetSucceded = error.longStack = longStack;
+                    stackSetSucceeded = error.stack = longStack;
                 }
-                catch (e) { }
+                catch (err) {
+                }
+            }
+            if (!stackSetSucceeded) {
+                try {
+                    stackSetSucceeded = error.longStack = longStack;
+                }
+                catch (err) {
+                }
             }
         }
         return parentZoneDelegate.handleError(targetZone, error);

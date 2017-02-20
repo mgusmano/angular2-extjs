@@ -3,7 +3,6 @@ var data = require('./modern-all-classes-flatten.json');
 launch(data);
 
 function launch(data) {
-	debugger;
 	var items = data.global.items;
 	var commaOrBlank = "";
 	var prefix = "x";
@@ -43,8 +42,6 @@ function launch(data) {
 			if (o.alias.indexOf('calendar-day') != -1) {
 //				debugger;
 			}
-
-
 
 			o.xtype = o.alias.substring(o.alias.indexOf(".") + 1);
 

@@ -49,12 +49,8 @@ import { subscribeToResult } from '../util/subscribeToResult';
  * @method debounce
  * @owner Observable
  */
-export function debounce<T>(durationSelector: (value: T) => SubscribableOrPromise<number>): Observable<T> {
+export function debounce<T>(this: Observable<T>, durationSelector: (value: T) => SubscribableOrPromise<number>): Observable<T> {
   return this.lift(new DebounceOperator(durationSelector));
-}
-
-export interface DebounceSignature<T> {
-  (durationSelector: (value: T) => SubscribableOrPromise<number>): Observable<T>;
 }
 
 class DebounceOperator<T> implements Operator<T, T> {
@@ -62,7 +58,7 @@ class DebounceOperator<T> implements Operator<T, T> {
   }
 
   call(subscriber: Subscriber<T>, source: any): TeardownLogic {
-    return source._subscribe(new DebounceSubscriber(subscriber, this.durationSelector));
+    return source.subscribe(new DebounceSubscriber(subscriber, this.durationSelector));
   }
 }
 
