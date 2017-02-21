@@ -81,7 +81,7 @@ class xd3_canvasMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

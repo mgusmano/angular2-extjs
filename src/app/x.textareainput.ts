@@ -98,7 +98,7 @@ class xtextareainputMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

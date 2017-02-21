@@ -43,7 +43,7 @@ var xcalendar_dayviewMetaData = (function () {
         'visibleDays',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_dayviewMetaData.OUTPUTS = [

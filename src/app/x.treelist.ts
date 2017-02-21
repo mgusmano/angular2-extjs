@@ -44,7 +44,7 @@ class xtreelistMetaData {
 		'y',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

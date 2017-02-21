@@ -93,7 +93,7 @@ var xspacerMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xspacerMetaData.OUTPUTS = [

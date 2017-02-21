@@ -59,7 +59,7 @@ var xsurfaceMetaData = (function () {
         'y',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xsurfaceMetaData.OUTPUTS = [

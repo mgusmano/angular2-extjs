@@ -44,7 +44,7 @@ var xcalendar_weeksviewMetaData = (function () {
         'weekendDays',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_weeksviewMetaData.OUTPUTS = [

@@ -99,7 +99,7 @@ class xd3_packMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

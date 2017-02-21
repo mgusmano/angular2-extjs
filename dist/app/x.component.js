@@ -93,7 +93,7 @@ var xcomponentMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcomponentMetaData.OUTPUTS = [

@@ -115,7 +115,7 @@ var xd3_packMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xd3_packMetaData.OUTPUTS = [

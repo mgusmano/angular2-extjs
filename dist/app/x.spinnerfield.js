@@ -124,7 +124,7 @@ var xspinnerfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xspinnerfieldMetaData.OUTPUTS = [

@@ -97,7 +97,7 @@ var xindexbarMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xindexbarMetaData.OUTPUTS = [

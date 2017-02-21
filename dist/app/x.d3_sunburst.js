@@ -117,7 +117,7 @@ var xd3_sunburstMetaData = (function () {
         'zoomParentDotRadius',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xd3_sunburstMetaData.OUTPUTS = [

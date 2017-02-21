@@ -28,7 +28,7 @@ var xcalendar_monthMetaData = (function () {
         'visibleWeeks',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_monthMetaData.OUTPUTS = [

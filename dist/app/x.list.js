@@ -144,7 +144,7 @@ var xlistMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xlistMetaData.OUTPUTS = [

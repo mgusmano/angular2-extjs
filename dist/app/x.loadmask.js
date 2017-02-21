@@ -97,7 +97,7 @@ var xloadmaskMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xloadmaskMetaData.OUTPUTS = [

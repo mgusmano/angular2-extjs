@@ -130,7 +130,7 @@ var xtooltipMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtooltipMetaData.OUTPUTS = [

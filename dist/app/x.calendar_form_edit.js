@@ -27,7 +27,7 @@ var xcalendar_form_editMetaData = (function () {
         'view',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_form_editMetaData.OUTPUTS = [

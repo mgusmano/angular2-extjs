@@ -120,7 +120,7 @@ var xsheetMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xsheetMetaData.OUTPUTS = [

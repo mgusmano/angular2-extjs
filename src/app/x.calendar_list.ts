@@ -7,7 +7,7 @@ class xcalendar_listMetaData {
 		'enableToggle',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

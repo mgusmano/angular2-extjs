@@ -152,7 +152,7 @@ var xtreeMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtreeMetaData.OUTPUTS = [

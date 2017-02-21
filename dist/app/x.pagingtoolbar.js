@@ -110,7 +110,7 @@ var xpagingtoolbarMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xpagingtoolbarMetaData.OUTPUTS = [

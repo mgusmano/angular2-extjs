@@ -120,7 +120,7 @@ var xmenuMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xmenuMetaData.OUTPUTS = [

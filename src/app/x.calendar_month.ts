@@ -12,7 +12,7 @@ class xcalendar_monthMetaData {
 		'visibleWeeks',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

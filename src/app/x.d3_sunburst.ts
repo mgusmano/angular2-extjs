@@ -101,7 +101,7 @@ class xd3_sunburstMetaData {
 		'zoomParentDotRadius',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

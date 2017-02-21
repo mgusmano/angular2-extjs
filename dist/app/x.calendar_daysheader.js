@@ -28,7 +28,7 @@ var xcalendar_daysheaderMetaData = (function () {
         'visibleDays',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_daysheaderMetaData.OUTPUTS = [

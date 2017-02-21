@@ -104,7 +104,7 @@ var xcontainerMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcontainerMetaData.OUTPUTS = [

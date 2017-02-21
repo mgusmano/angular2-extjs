@@ -103,7 +103,7 @@ var xtogglesliderMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtogglesliderMetaData.OUTPUTS = [

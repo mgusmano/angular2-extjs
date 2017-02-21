@@ -117,7 +117,7 @@ var xfileinputMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xfileinputMetaData.OUTPUTS = [

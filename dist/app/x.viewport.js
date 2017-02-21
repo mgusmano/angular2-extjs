@@ -106,7 +106,7 @@ var xviewportMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xviewportMetaData.OUTPUTS = [

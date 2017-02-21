@@ -106,7 +106,7 @@ var xtoolbarMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtoolbarMetaData.OUTPUTS = [

@@ -99,7 +99,7 @@ var xpaneltitleMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xpaneltitleMetaData.OUTPUTS = [

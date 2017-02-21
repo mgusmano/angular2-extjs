@@ -106,7 +106,7 @@ var xheadercontainerMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xheadercontainerMetaData.OUTPUTS = [

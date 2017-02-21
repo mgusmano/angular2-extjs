@@ -117,7 +117,7 @@ var xurlfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xurlfieldMetaData.OUTPUTS = [

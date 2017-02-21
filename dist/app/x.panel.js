@@ -116,7 +116,7 @@ var xpanelMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xpanelMetaData.OUTPUTS = [

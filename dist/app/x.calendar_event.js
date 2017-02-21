@@ -33,7 +33,7 @@ var xcalendar_eventMetaData = (function () {
         'view',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcalendar_eventMetaData.OUTPUTS = [

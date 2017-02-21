@@ -28,7 +28,7 @@ class xcalendar_daysviewMetaData {
 		'visibleDays',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

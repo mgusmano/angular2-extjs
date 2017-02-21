@@ -114,7 +114,7 @@ var xinputMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xinputMetaData.OUTPUTS = [

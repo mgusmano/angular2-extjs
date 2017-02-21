@@ -117,7 +117,7 @@ var xd3_treemapMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xd3_treemapMetaData.OUTPUTS = [

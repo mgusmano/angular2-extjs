@@ -93,7 +93,7 @@ var xlabelMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xlabelMetaData.OUTPUTS = [

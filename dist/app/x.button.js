@@ -113,7 +113,7 @@ var xbuttonMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xbuttonMetaData.OUTPUTS = [

@@ -117,7 +117,7 @@ var xemailfieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xemailfieldMetaData.OUTPUTS = [

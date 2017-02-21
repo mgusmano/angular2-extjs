@@ -101,7 +101,7 @@ class xd3_treemapMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

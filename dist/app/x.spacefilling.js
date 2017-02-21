@@ -39,7 +39,7 @@ var xspacefillingMetaData = (function () {
         'theme',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xspacefillingMetaData.OUTPUTS = [

@@ -94,7 +94,7 @@ var xtitleMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtitleMetaData.OUTPUTS = [

@@ -106,7 +106,7 @@ var xcarouselMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xcarouselMetaData.OUTPUTS = [

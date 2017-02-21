@@ -87,7 +87,7 @@ class xd3_heatmapMetaData {
 		'zIndex',
 		'platformConfig',
 		'responsiveConfig',
-		'fittoparent',
+		'fitToParent',
 		'config'
 ];
 	public static OUTPUTS: any[] = [

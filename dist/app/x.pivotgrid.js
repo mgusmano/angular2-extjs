@@ -157,7 +157,7 @@ var xpivotgridMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xpivotgridMetaData.OUTPUTS = [

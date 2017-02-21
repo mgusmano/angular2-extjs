@@ -117,7 +117,7 @@ var xtogglefieldMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtogglefieldMetaData.OUTPUTS = [

@@ -126,7 +126,7 @@ var xdataviewMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xdataviewMetaData.OUTPUTS = [

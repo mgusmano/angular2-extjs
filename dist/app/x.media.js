@@ -102,7 +102,7 @@ var xmediaMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xmediaMetaData.OUTPUTS = [

@@ -114,7 +114,7 @@ var xtextareainputMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtextareainputMetaData.OUTPUTS = [

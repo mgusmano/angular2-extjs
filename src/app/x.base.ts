@@ -79,11 +79,11 @@ export class xbase{
 			if (me[prop] != undefined && 
 					prop != 'listeners' && 
 					prop != 'config' && 
-					prop != 'fittoparent') { 
+					prop != 'fitToParent') { 
 				o[prop] = me[prop]; 
 			};
 		}
-		if ('true' == me.fittoparent) {
+		if ('true' == me.fitToParent) {
 			o.top=0, 
 			o.left=0, 
 			o.width='100%', 

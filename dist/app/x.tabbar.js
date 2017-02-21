@@ -108,7 +108,7 @@ var xtabbarMetaData = (function () {
         'zIndex',
         'platformConfig',
         'responsiveConfig',
-        'fittoparent',
+        'fitToParent',
         'config'
     ];
     xtabbarMetaData.OUTPUTS = [
