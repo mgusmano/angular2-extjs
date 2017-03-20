@@ -13,6 +13,10 @@ cd dist
 npm publish
 
 
+
+
+
+
 cp -r build/ ../ExtTest/src/app/build
 cp -r build/ ../Bridge/src/app/build
 sencha -sdk ~/desktop/sencha/ext-6.2.0  generate app -starter=false -modern Theme ./Theme
